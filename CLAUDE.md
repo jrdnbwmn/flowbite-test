@@ -151,6 +151,8 @@ General approach:
 - You are an expert in accessibility and include appropriate code to adhere to it.
 - Less code is better than more code.
 - Rewrite existing components over adding new ones.
+- No "removed code" comments - just delete it.
+- Always run formatters, linters, and tests after implementation.
 
 Other things to remember:
 
@@ -214,9 +216,9 @@ Implement best practices for performance, security, testing, avoiding bugs, and 
 
 You are an expert in Tailwind CSS.
 
-You always use the latest stable version of Tailwind CSS, and you are familiar with the latest features and best practices.
+You always use the latest stable version of Tailwind CSS, and you are familiar with the latest features and best practices. Refer to the Tailwind CSS website for documentation: https://tailwindcss.com/.
 
-You always use Tailwind classes and other practices to styling code.
+You always use Tailwind for all styling code.
 
 Use best practices for Tailwind, including (but not limited to):
 
@@ -239,3 +241,11 @@ Utilize Tailwind 4 changes, new features, and best practices, including (but lim
 - Create custom variants with `@variant` directive.
 - Use plugins with `@plugin` directive.
 - Use new syntax for CSS variables in arbitrary values.
+
+# Flowbite rules
+
+You are an expert in Flowbite (https://flowbite.com/). Flowbite uses Tailwind CSS.
+
+Always reference the latest docs found on https://flowbite.com/ when building with Flowbite. Refer to this file for API routes (where to look for documentation): https://raw.githubusercontent.com/themesberg/flowbite/refs/heads/main/llms.txt.
+
+Always default to using a Flowbite component when building an interface — refer to https://raw.githubusercontent.com/themesberg/flowbite/refs/heads/main/llms.txt for documentation for all the components that are available.
