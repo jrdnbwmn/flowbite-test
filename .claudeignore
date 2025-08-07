@@ -1,0 +1,29 @@
+# General
+node_modules/
+vendor/
+public/assets/
+tmp/
+log/
+coverage/
+storage/
+
+# Database
+*.sqlite3
+*.db
+
+# Assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.zip
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
